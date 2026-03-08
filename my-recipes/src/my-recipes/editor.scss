@@ -1,0 +1,33 @@
+.recipeediter {
+  background: rgb(255, 255, 255);
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 20px 30px; /* space inside the box */
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: sans-serif;
+
+  h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box; /* prevents padding from causing overflow */
+  }
+
+  .field {
+    margin-top: 20px;
+  }
+}
